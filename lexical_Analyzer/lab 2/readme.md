@@ -1,1 +1,1 @@
-Identify whether the input is number, character or operator.
+Identify whether the input is number, character, operator or not.

@@ -1,1 +1,1 @@
-Identify whether the input string as identifier or keyword.
+Identify whether the input string has identifier or keyword.
