@@ -1,1 +1,1 @@
-C program to classify the input string
+C program to implement a NFA to classify the input string
