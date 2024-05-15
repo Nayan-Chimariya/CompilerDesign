@@ -8,7 +8,7 @@ void yyerror(const char *s);
 %}
 
 %token NUM
-%token ADD SUB MUL DIV
+%token ADD SUB MUL DIV LPAREN RPAREN
 
 %%
 
@@ -26,6 +26,7 @@ term: term MUL factor { $$ = $1 * $3; }
     ;
 
 factor: NUM { $$ = $1; }
+    | LPAREN expr RPAREN { $$ = $2; }
     ;
 
 %%

@@ -10,6 +10,8 @@
 "-"         { return SUB; }
 "*"         { return MUL; }
 "/"         { return DIV; }
+"("         { return LPAREN; }
+")"         { return RPAREN; }
 .           { return yytext[0]; }
 
 %%

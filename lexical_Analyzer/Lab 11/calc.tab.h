@@ -43,7 +43,9 @@
      ADD = 259,
      SUB = 260,
      MUL = 261,
-     DIV = 262
+     DIV = 262,
+     LPAREN = 263,
+     RPAREN = 264
    };
 #endif
 /* Tokens.  */
@@ -52,6 +54,8 @@
 #define SUB 260
 #define MUL 261
 #define DIV 262
+#define LPAREN 263
+#define RPAREN 264
 
 
 
