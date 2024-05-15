@@ -13,7 +13,6 @@ if|else|for|while|do|switch|case|break|continue|return { printf("CONTROL: %s\n",
 "=="|"!="|"<"|">"|"<="|">="|"="|"+"|"-"|"("|")"|"."|""|"/" { printf("OPERATOR: %s\n", yytext); }
 "," {printf("COMMA: %s\n", yytext);}
 ";" {printf("SEMICOLON: %s\n", yytext);}
-"{"|"}" {printf("SEMICOLON: %s\n", yytext);}
 "@"|"!"|"#"|"$"|"%"|"&" {printf("SPECIAL CHARACTERS: %s\n", yytext);}
 \"(\\.|[^"])*\" { /* Ignore strings */ }
 " " {printf("SPACE: %s\n", yytext);}
